@@ -40,3 +40,16 @@ for i in n:
         print(d)
         es += d
 print("sum of even = ", es)
+
+# print maximum digit in number
+
+n = "1208345"
+
+maxdigit = 0
+
+for i in n:
+    d = int(i)
+    if d > maxdigit:
+        maxdigit = d
+print("max digit = ", maxdigit)
+

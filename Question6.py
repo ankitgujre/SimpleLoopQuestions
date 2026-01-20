@@ -1,3 +1,4 @@
+# sum of only even digit in a number
 num = "123"
 even_sum = 0
 
