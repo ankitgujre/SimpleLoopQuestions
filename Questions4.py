@@ -53,3 +53,13 @@ for i in n:
         maxdigit = d
 print("max digit = ", maxdigit)
 
+
+n = "1208345"
+
+min = 0
+
+for i in n:
+    d = int(i)
+    if d < min:
+        min = d
+print("min digit = ", min)
